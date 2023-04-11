@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Stack, useRouter } from "expo-router";
 import { View, SafeAreaView, ScrollView } from "react-native";
 
@@ -10,7 +11,15 @@ import {
 } from "../components";
 
 const Home = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
   const router = useRouter();
+
+  const handleSearch = () => {
+    if (searchTerm) {
+      router.push(`/search/${searchTerm}`);
+    }
+  };
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
@@ -35,7 +44,11 @@ const Home = () => {
             padding: SIZES.medium,
           }}
         >
-          <Welcome />
+          <Welcome
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            handleClick={handleSearch}
+          />
 
           <Popularjobs />
 

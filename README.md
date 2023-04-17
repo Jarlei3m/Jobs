@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  Simple app for jobs search built with React.
+  Simple app for jobs search built with React Native.
 </h4>
 
 <p align="center">

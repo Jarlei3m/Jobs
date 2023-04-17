@@ -21,11 +21,7 @@
 
   <a href="https://github.com/jarlei3m/Jobs/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/jarlei3m/Jobs?style=plastic">
-  </a>
-  
-  <a href="https://github.com/Jarlei3m/Jobs/blob/master/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/jarlei3m/Jobs?style=plastic">
-  </a>
+  </a>  
 </p>
 
 <p align="center">

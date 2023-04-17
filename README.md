@@ -44,7 +44,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Run this command from any directory in your terminal:
-$ git clone https://github.com/jarlei3m/Jobs
+$ git clone https://github.com/jarlei3m/Jobs.git
 # Go into the repository
 $ cd Jobs
 # Install dependencies
